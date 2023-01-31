@@ -1,8 +1,0 @@
-type: edu
-files:
-- name: build.gradle
-  visible: false
-- name: src/main/java/org/hyperskill/textfield/components/OutlinedTextField.kt
-  visible: true
-- name: src/main/java/org/hyperskill/textfield/components/TextFieldSemantics.kt
-  visible: true
