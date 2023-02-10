@@ -1,8 +1,8 @@
 type: hyperskill
-title: Column Row and Box
+title: Photo Gallery
 language: English
-summary: Hyperskill lesson "Column Row and Box"
+summary: Hyperskill lesson "Photo Gallery"
 programming_language: Kotlin
 environment: Android
 content:
-- Column Row and Box
+- PhotoGallery
