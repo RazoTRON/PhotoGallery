@@ -24,12 +24,6 @@ files:
   visible: true
 - name: src/main/java/org/hyperskill/photogallery/ui/theme/Theme.kt
   visible: true
-- name: src/test/java/org/hyperskill/photogallery/Test.kt
-  visible: false
-- name: src/test/java/org/hyperskill/photogallery/internals/AbstractUnitTest.kt
-  visible: false
-- name: src/test/resources/robolectric.properties
-  visible: false
 - name: src/main/java/org/hyperskill/photogallery/components/Text.kt
   visible: false
 - name: src/main/java/org/hyperskill/photogallery/components/foundation/ColumnRowBox/Box.kt
@@ -60,9 +54,3 @@ files:
   visible: true
 - name: src/main/res/values/strings.xml
   visible: true
-- name: src/main/res/font/urbanist_regular.ttf
-  visible: true
-- name: src/main/res/font/urbanist.xml
-  visible: true
-- name: src/test/java/org/hyperskill/photogallery/internals/Assertions.kt
-  visible: false

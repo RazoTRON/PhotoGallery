@@ -86,3 +86,5 @@ files:
   visible: true
 - name: src/main/java/org/hyperskill/photogallery/app/PermissionHandler.kt
   visible: true
+- name: src/test/java/org/hyperskill/photogallery/internals/PhotoGalleryUnitTest.kt
+  visible: false

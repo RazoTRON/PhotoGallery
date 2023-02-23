@@ -1,16 +1,26 @@
 package org.hyperskill.photogallery
 
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.material3.Surface
+import androidx.compose.runtime.currentComposer
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.test.*
 import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.compose.ui.unit.dp
 import org.hyperskill.photogallery.components.foundation.ColumnRowBox.semVerticalArrangementKey
+import org.junit.Assert.assertEquals
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.shadows.ShadowLog
+import java.lang.reflect.Method
 
 @RunWith(RobolectricTestRunner::class)
 class SearchFieldTest {
@@ -42,6 +52,5 @@ class SearchFieldTest {
         }
 
     }
-
 
 }
